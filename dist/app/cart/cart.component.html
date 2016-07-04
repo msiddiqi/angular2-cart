@@ -1,0 +1,10 @@
+<form (submit)="addItemToCart()">
+  <input type="text" [(ngModel)]="newItemTitle" />
+  <input type="submit" />
+</form>
+<ul>
+  <li *ngFor="let item of cartItems">
+    {{item.title}}
+  </li>
+</ul>
+
