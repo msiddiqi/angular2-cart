@@ -2,6 +2,7 @@
 
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
+import { CartService } from './../cart.service';
 
 import {
   beforeEach, beforeEachProviders,
@@ -14,7 +15,8 @@ import { CartComponent } from './cart.component';
 
 describe('Component: Cart', () => {
   it('should create an instance', () => {
-    let component = new CartComponent();
+    var cartService = new CartService();
+    let component = new CartComponent(cartService);
     expect(component).toBeTruthy();
   });
 });
