@@ -34,6 +34,7 @@ const barrels: string[] = [
   'app',
   'app/shared',
   'app/cart',
+  'bootstrap'
   /** @cli-barrel */
 ];
 
@@ -50,7 +51,8 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
-    'main': 'main.js'
+    'main': 'main.js',
+    'bootstrap': 'vendor/bootstrap/dist'
   },
   packages: cliSystemConfigPackages
 });
