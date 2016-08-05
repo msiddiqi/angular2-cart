@@ -1,1 +1,0 @@
-/Users/muhammadsiddiqi/Documents/code/Github/angular2-cart/node_modules/@angular/compiler/src/schema/dom_element_schema_registry.js
